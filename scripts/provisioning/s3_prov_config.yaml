@@ -49,8 +49,8 @@ INIT:
 # Inheritance hierarchy ends here.
 
 TEST:
-  CONFSTORE_LDAPADMIN_USER_KEY: "cortx>software>openldap>sgiam>user"
-  CONFSTORE_LDAPADMIN_PASSWD_KEY: "cortx>software>openldap>sgiam>secret"
+  CONFSTORE_LDAPADMIN_USER_KEY: "openldapiamuser"
+  CONFSTORE_LDAPADMIN_PASSWD_KEY: "openldapiamsecret"
   CONFSTORE_ENDPOINT_KEY: "endpoint_fqdn"
 RESET:
   CONFSTORE_LDAPADMIN_USER_KEY: "cortx>software>openldap>sgiam>user"

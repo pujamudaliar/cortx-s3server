@@ -17,9 +17,5 @@
 # please email opensource@seagate.com or cortx-questions@seagate.com.
 #
 endpoint_fqdn: "s3.seagate.com"
-cortx:
-  software:
-    openldap:
-      sgiam:
-        user: "sgiamadmin"
-        secret: "TMPL_SGIAM_SECRET_KEY"
+openldapiamuser: "sgiamadmin"
+openldapiamsecret: "TMPL_SGIAM_SECRET_KEY"
